@@ -60,5 +60,46 @@
 
     const hasilKurang6 = object4 - object2 -object3;
     console.log("hasil dari oprator pengurangan gabugan 3 angka yg ke 3 :" + hasilKurang6)
+    console.log("inilah hasil dari oprator pengurangan gabungan 3 angka : "+ hasilKurang4 +" , "+ hasilKurang5 + " , "+  hasilKurang6);
+    console.log("================OPERATOR PENGURANGAN 3 ANGKA==================");
+// oprator pengurangan selesai
+
+
+// operator perkalian
+    const nilai1 = 6;
+    const nilai2 = 9;
+    const nilai3 = 12;
+    const nilai4 = 15;
+
+    //operator perkalian function 
+    const hasilKali1 = nilai4 * nilai3;
+    console.log("hasil dari oprator perkalian 1 : "+ hasilKali1);
+
+    const hasilKali2 = nilai1 * nilai2;
+    console.log("hasil dari oprator perkalian 2 : "+ hasilKali2);
+
+    const hasilKali3 = nilai3 * nilai1;
+    console.log("hasil dari oprator perkalian 3 : "+ hasilKali3);
+
+    console.log("inilah hasil dari oprator perkalian 2 angka : "+ hasilKali1 + " ,"+ hasilKali2 + " , "+  hasilKali3);
+    console.log("================OPERATOR PERKALIAN 2 ANGKA==================");
+
+    //gabungan 3 angka
+
+    const hasilKali4 = nilai1 * nilai3 * nilai4;
+    console.log("hasil dari oprator pekalian gabungan 3 angka yg pertama :"+ hasilKali4);
+
+    const hasilKali5 = nilai4 * nilai3 * nilai1;
+    console.log("hasil dari oprator perkalian gabungan 3 angka yg ke 2 : "+ hasilKali5);
+
+    const hasilKali6 = nilai3 * nilai4 * nilai3;
+    console.log("hasil dari oprator perkalian gabungan 3 angka yg ke 3 :"+ hasilKali6);
+
+    console.log("inilah hasil dari oprator perkalian gabungan 3 angka : "+ hasilKali4+" , "+ hasilKali5 + " , "+ hasilKali6);
+    console.log("================OPERATOR PERKALIAN 3 ANGKA==================");
+// operator perkalian selesai
+
+
+
 
 
