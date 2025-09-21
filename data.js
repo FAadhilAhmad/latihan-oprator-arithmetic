@@ -100,6 +100,63 @@
 // operator perkalian selesai
 
 
+// operator pembagian
+    const angka1 = 50;
+    const angka2 = 25;
+    const angka3 = 490;
+    const angka4 = 78;
 
+    // operator pembagian function
+    const hasilBagi1 = angka1 / angka2;
+    console.log("hasil dari oprator pembagian 1 : "+ hasilBagi1);
+
+    const hasilBagi2 = angka3 / angka1;
+    console.log("hasil dari oprator pembagian 2 : "+ hasilBagi2);
+
+    const hasilBagi3 = angka4 / angka2;
+    console.log("hasil dari oprator pembagian 3 : "+ hasilBagi3);
+
+    console.log("inilah hasil dari oprator pembagian 2 angka : "+ hasilBagi1 +" , "+ hasilBagi2 + "  , "+ hasilBagi3);
+    console.log("================OPERATOR PEMBAGIAN 2 ANGKA==================");
+
+    // gabugan 3 angka 
+    const hasilBagi4 = angka3 / angka1 / angka3;
+    console.log("hasil dari oprator pembagian gabugan 3 angka yg pertama : "+ hasilBagi4);
+
+    const hasilBagi5 = angka4 / angka1 / angka2;
+    console.log("hasil dari oprator pembagian gabungan 3 angka yg ke 2 :"+hasilBagi5);
+
+    const hasilBagi6 = angka2 / angka3 / angka4;
+    console.log("hasil dari oprator pembagian gabugan 3 angka yg ke 3 :"+ hasilBagi6);
+    console.log("inilah hasil dari oprator pembagian gabungan 3 angka : "+ hasilBagi4 +" , "+ hasilBagi5 + " , "+  hasilBagi6);
+    console.log("================OPERATOR PEMBAGIAN 3 ANGKA==================");
+// operator pembagian selesai
+
+
+
+// function penguji ganjil genap
+
+    function angkaGanjilGenap(nilai) {
+        if (nilai % 3 === 0){
+            return nilai + " ini adalah angka genap";
+        }else{
+            return nilai + " iniadalah angka ganjil";
+        }
+    };
+
+    console.log(angkaGanjilGenap(31));
+    console.log(angkaGanjilGenap(45));
+// function penguji ganjil genap selesai
+
+// function warna kesukaan adi
+    function warnaKesukaan(warna){
+        if (warna === "merah"){
+            return "yaa benar warna kesukaan adi merah";
+        }else {
+            return "ini bukan warna kesukaan adi";
+        }
+    }
+    console.log(warnaKesukaan("merah"));
+    console.log(warnaKesukaan("biru"));
 
 
