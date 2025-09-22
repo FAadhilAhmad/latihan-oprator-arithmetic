@@ -159,4 +159,32 @@
     console.log(warnaKesukaan("merah"));
     console.log(warnaKesukaan("biru"));
 
+// function warna end
+
+
+// function tampilan 
+
+    const inputSatu = document.getElementById("inputSatu");
+    const inputDua = document.getElementById("inputDua");
+    const outputSatu = document.getElementById("outputSatu");
+
+    const btnSubmit = document.getElementById("btnSubmit");
+
+
+    btnSubmit.addEventListener('click', function(){
+        const dataSatu = parseInt(inputSatu.value);
+        const dataDua = parseInt(inputDua.value);
+
+        function parameterGanjilGenap(a, b){
+            if( a % b === 0){
+                return " ya habis di bagi (genap)";
+            }else{
+                return " salah tidak habis di bagi (ganjil)";
+            }
+        };
+
+        outputSatu.innerText = parameterGanjilGenap(dataSatu, dataDua);
+    });
+
+
 
